@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
 body{
     background-color: antiquewhite;
@@ -48,8 +48,9 @@ nav ul li{
     justify-content: center;
     align-items: center;
     color: white;
-    flex-direction: column;
-}
+    flex-direction: column; 
+ } 
+
 .container{
     min-height: 70vh;
     background-color: black;
@@ -100,7 +101,7 @@ nav ul li{
      display: flex;
      background-color: white;
      /* width: 80%; */
-    /* color: black;
+     color: black;
      margin: 12px 0;
      justify-content: space-between;
      align-items: center;
@@ -128,138 +129,14 @@ border-radius: 33px;
     left: 10vw;
 }
 
-
-     */
-
-
-
-     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
-
-body {
-    background-color: antiquewhite;
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+.navbuttons {
+    margin-right: 10px;
+    
 }
-
-nav {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    height: 65px;
-    background-color: black;
+.a{
     color: white;
-    align-items: center;
-    padding: 0;
-}
-
-.brand img {
-    width: 44px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-nav ul li {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.brand {
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-.bottom {
-    position: sticky;
-    height: 130px;
-    background-color: black;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-}
-
-.container {
-    min-height: 70vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 23px auto;
-    color: white;
-    border-radius: 12px;
-    padding: 34px;
-    background-image: url('photo-1511138743687-5c14e8cfcf47.avif');
-    background-size: cover;
-    background-position: center;
-}
-
-.songitemcontainer {
-    margin-top: 34px;
-}
-
-#myProgressBar {
-    width: 80vw;
-    text-align: center;
-    color: green;
-    cursor: pointer;
-}
-
-.icons {
-    border: 2px;
-    border-radius: 10px;
-    margin: 4px;
-    background-color: black;
-}
-
-#masterPlay {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.icons i {
-    cursor: pointer;
-}
-
-.songitem {
-    height: 50px;
-    display: flex;
-    background-color: white;
-    color: black;
-    margin: 12px 0;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 34px;
-    padding: 0 10px;
-}
-
-.songitem img {
-    width: 43px;
-    margin: 0 23px;
-    border-radius: 33px;
-}
-
-.timestamp {
-    margin: 0 10px;
-}
-
-.timestamp i {
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.songinfo {
-    position: absolute;
-    left: 10vw;
+    text-decoration: none;
+   
 }
 
 @media (max-width: 1024px) {
@@ -291,20 +168,7 @@ nav ul li {
 } 
 
 @media (max-width: 480px) {
-    /* nav ul {
-        flex-direction: column;
-        height: auto;
-    }
-    .container {
-        width: 100%;
-        padding: 10px;
-    } */
-    /* .songitem {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 10px;
-    } */
+   
     .songitem img {
         width: 30px;
         margin: 0 10px;
@@ -315,11 +179,7 @@ nav ul li {
     .icons i {
         margin: 0 5px;
     }
-    /* .bottom {
-        flex-direction: column;
-        height: auto;
-        padding: 10px; */
-    /* } */
+   
     #myProgressBar {
         width: 95vw;
     }

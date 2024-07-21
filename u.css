@@ -1,0 +1,12 @@
+.about{
+    background-color: rgb(35, 201, 35);
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 20px;
+    overflow: scroll;
+
+}
+body{
+    background-color: black;
+}
