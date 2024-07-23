@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify Clone</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="3.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="u.png" class="sg" alt="spotify">Spotify</li>
+            <li class="navbuttons" style="display:flex;gap: 20px;">
+                <a href="index.html" class="a">Home</a>
+                <a href="about.html" class="a">About</a>
+                <a href="login.html" class="a">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

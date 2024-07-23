@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1DB954;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #1ed760;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight:  bolder;
+    font-size: ;
+}
+.sg {
+  width: 65px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+font-family: 'ubuntu',sans-serif1;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+    
+     
+}
+.brand img{
+    width: 44px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+nav ul li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight:  bolder;
+    font-size: ;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
