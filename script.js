@@ -11,6 +11,7 @@ const songs = [
     { songname: "Tujhme khoya rhun mai", filePath: "2.mp3", coverPath: "2.jpeg" },
     { songname: "Suniyan suniyan", filePath: "3.mp3", coverPath: "3.jpeg" },
     { songname: "Tere Hawale", filePath: "4.mp3", coverPath: "4.jpeg" }
+    
 ];
 
 let audioElement = new Audio(songs[songIndex].filePath);
@@ -19,6 +20,8 @@ let audioElement = new Audio(songs[songIndex].filePath);
 songItems.forEach((element, i) => {
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
     element.getElementsByClassName("songName")[0].innerText = songs[i].songname;
+    gif.style.opacity=0;
+
 });
 
 // Play/Pause functionality
